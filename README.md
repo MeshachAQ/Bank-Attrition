@@ -11,12 +11,9 @@ So first and foremost, I downloaded the dataset as usual, created a database in 
 ### Recommendations
 
 # Data Cleaning
+The first step of my cleaning process was to remove duplicates using ROW_NUMBER(), PARTITION BY. This is among my favourite thing when I'm using sql to clean a dataset so yhh: ![duplicates bk](https://github.com/user-attachments/assets/924c04dd-4ac7-46c6-909d-b15f1f1f874f)
+So this was how we checked and removed our duplicate values. After this, I went ahead to standardize my dataset by first checking through the various columns like this: ![attrition standa1](https://github.com/user-attachments/assets/fe5a3fe1-8555-4483-af0d-3ca9fbb89aa5) ![Attrition standa2](https://github.com/user-attachments/assets/7ad4e2fc-6ee2-48f4-8dfb-ac5f6bb26d33)
 
-The first step of my cleaning process was to remove duplicates using ROW_NUMBER(), PARTITION BY. This is among my favourite thing when I'm using sql to clean a dataset so yhh![Standardize 2 bk](https://github.com/user-attachments/assets/ee5b5364-65ed-4b7d-855b-b65b19ebb090)
-![standardize bk](https://github.com/user-attachments/assets/3b6961a5-4b22-4453-9180-43a027572b9d)
-![standardize 3 bk](https://github.com/user-attachments/assets/08b53720-3fa5-459f-908c-a0df5a3526ac)
-
-So this was how we checked and removed our duplicate values. After this, I went ahead to standardize my dataset by first checking through the various columns like this
 so this is how I cleaned and transformed my dataset
 
 # Data Analysis
@@ -24,27 +21,15 @@ so this is how I cleaned and transformed my dataset
 I then moved on to creating my analysis, answering some really insightful and important questions
 
 #### HOW MANY CUSTOMERS DOES THIS BANK HAVE?
-
 #### FIND THE NUMBER OF CUSTOMERS PER REGION AND THE ESTIMATED SALARIES OR WHICH REGION IS CONTRIBUTING THE HIGHEST AMOUNT
-
 #### FIND THE TOTAL, AVERAGE, HIGHEST AND LOWEST ESTIMATED SALARY DETAIL
-
-#### FIND THE TOTAL, AVERAGE, HIGHEST AND LOWEST BALANCES DETAILS![analysis bk2](https://github.com/user-attachments/assets/a3482caf-ab69-459a-a49f-9dfbb6dccbe1)
-![analysis bk1](https://github.com/user-attachments/assets/e702ddab-55aa-46f7-8156-6c1b3987dd0b)
-
+#### FIND THE TOTAL, AVERAGE, HIGHEST AND LOWEST BALANCES DETAILS
 #### HOW MANY CUSTOMERS PURCHASED HOW MANY PRODUCTS FROM THE BANK?
-
 #### FIND THE TOTAL CUSTOMERS PER CARD TYPE AND GEOGRAPHY
-
 #### WHAT IS THE TOTAL ATTRITION NUMBER?
-
 #### WHICH AGE BRACKET HAS THE HIGHEST NUMBER OF ATTRITION?
-
 ### HOW MANY ATTRITION CUSTOMERS HAD CREDIT CARDS?
-
-just to mention a few and this was my formulas or queries for this exciting project
-![duplicates bk](https://github.com/user-attachments/assets/fc1d0e0d-893b-4e52-9593-0ef814ceba0d)
-
+just to mention a few and this was my formulas or queries for this exciting project: ![analysis bk1](https://github.com/user-attachments/assets/abb4c550-6ee0-4f53-b217-d1f9772103d1) ![analysis bk2](https://github.com/user-attachments/assets/2e1094eb-d84f-459f-9b5f-f154ca33516e)
 So yhh this was my queries and more business questions answered
 
 # Conclusion
